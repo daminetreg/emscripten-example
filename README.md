@@ -9,7 +9,7 @@ source emsdk_env.sh
 cd /path/to/this/project
 mkdir buildjs/
 cd buildjs
-cmake -GNinja .. -DCMAKE_TOOLCHAIN_FILE=${EMSCRIPTEN}/master/cmake/Modules/Platform/Emscripten.cmake
+cmake -GNinja .. -DCMAKE_TOOLCHAIN_FILE=${EMSCRIPTEN}/cmake/Modules/Platform/Emscripten.cmake
 ninja
 ```
 
